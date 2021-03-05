@@ -11,6 +11,7 @@ import id.my.fahdilabib.beefoods.utils.Helper
 
 class FoodViewHolder : RecyclerView.Adapter<FoodViewHolder.ListViewHolder>() {
 
+    var onItemClick: ((Food) -> Unit)? = null
     var listData = ArrayList<Food>()
         set(value) {
             listData.clear()
@@ -42,6 +43,12 @@ class FoodViewHolder : RecyclerView.Adapter<FoodViewHolder.ListViewHolder>() {
 
                 tvItemName.text = data.name
                 tvItemPrice.text = Helper.rupiah(data.price.toDouble())
+            }
+        }
+
+        init {
+            binding.root.setOnClickListener {
+                onItemClick?.invoke(listData[adapterPosition])
             }
         }
     }
