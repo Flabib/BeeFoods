@@ -131,7 +131,6 @@
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="10dp"
                             android:orientation="vertical"
                             android:layout_marginStart="10dp">
 
@@ -170,8 +169,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:orientation="vertical"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginLeft="10dp">
+                            android:layout_marginStart="10dp">
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -273,7 +271,6 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="10dp"
                             android:gravity="center_vertical"
-                            android:paddingRight="8dp"
                             android:paddingEnd="8dp"
                             tools:ignore="RtlSymmetry,UseCompoundDrawables">
 
@@ -288,7 +285,6 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="20dp"
                                 android:textColor="@color/goodgrey"
                                 android:text="@string/email_value"
                                 android:textSize="15sp"
@@ -301,7 +297,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_vertical"
-                            android:paddingRight="8dp"
                             android:paddingEnd="8dp"
                             tools:ignore="RtlSymmetry,UseCompoundDrawables">
 
@@ -316,7 +311,6 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="20dp"
                                 android:fontFamily="@font/proximanovaregular"
                                 android:text="@string/call_value"
                                 android:textColor="@color/goodgrey"
@@ -330,7 +324,6 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:gravity="center_vertical"
-                            android:paddingRight="8dp"
                             android:paddingEnd="8dp"
                             tools:ignore="RtlSymmetry,UseCompoundDrawables">
 
@@ -345,7 +338,6 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="20dp"
                                 android:text="@string/location_value"
                                 android:textSize="15sp"
                                 android:textColor="@color/goodgrey"

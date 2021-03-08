@@ -8,7 +8,6 @@
     <string name="about_me">About Me</string>
     <string name="my_desc">I work as an Intermediate Software Developer in the Software Community. I am responsible for the development of the Financial System which is being developed in collaboration with other divisions. Using Laravel, I developed a CRUD system against a RESTful API that returns a JSON payload. I also integrated Basic Network Security like Cloudflare to secure the system.</string>
     <string name="contact">Contact</string>
-    <string name="skills">Skills</string>
     <string name="profile">Profile</string>
     <string name="job_success_value">87%</string>
     <string name="ratings_value">4.2/5</string>
@@ -17,4 +16,5 @@
     <string name="location_value">Cirebon, Indonesia.</string>
     <string name="job_value">Bangkit Student</string>
     <string name="name_value">Fahdi Labib</string>
+    <string name="content_image">Content Image</string>
 </resources>
