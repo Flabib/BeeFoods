@@ -20,6 +20,17 @@
         <item name="android:windowContentOverlay">@null</item>
     </style>
 
+    <style name="Theme.BeeFoods.Fullscreen.Splash" parent="Theme.BeeFoods.Fullscreen">
+        <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.BeeFoods.Fullscreen.Info" parent="Theme.BeeFoods.Fullscreen">
+        <item name="colorPrimaryVariant">#FFA000</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+
     <style name="RatingBar" parent="Theme.AppCompat">
         <item name="colorControlActivated">#ffc922</item>
         <item name="colorControlNormal">#A9A9A9</item>

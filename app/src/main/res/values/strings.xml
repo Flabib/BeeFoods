@@ -2,4 +2,19 @@
     <string name="app_name">Bee Foods</string>
     <string name="share">Share</string>
     <string name="info">Info</string>
+
+    <string name="job_success">Job Success</string>
+    <string name="ratings">Star Ratings</string>
+    <string name="about_me">About Me</string>
+    <string name="my_desc">I work as an Intermediate Software Developer in the Software Community. I am responsible for the development of the Financial System which is being developed in collaboration with other divisions. Using Laravel, I developed a CRUD system against a RESTful API that returns a JSON payload. I also integrated Basic Network Security like Cloudflare to secure the system.</string>
+    <string name="contact">Contact</string>
+    <string name="skills">Skills</string>
+    <string name="profile">Profile</string>
+    <string name="job_success_value">87%</string>
+    <string name="ratings_value">4.2/5</string>
+    <string name="email_value">a2562396@bangkit.academy</string>
+    <string name="call_value">+62 89660248611</string>
+    <string name="location_value">Cirebon, Indonesia.</string>
+    <string name="job_value">Bangkit Student</string>
+    <string name="name_value">Fahdi Labib</string>
 </resources>

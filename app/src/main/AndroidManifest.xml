@@ -9,14 +9,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BeeFoods">
         <activity android:name=".ui.pages.SplashActivity"
-            android:theme="@style/Theme.BeeFoods.Fullscreen">
+            android:theme="@style/Theme.BeeFoods.Fullscreen.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.pages.InfoActivity" />
+        <activity android:name=".ui.pages.InfoActivity"
+            android:theme="@style/Theme.BeeFoods.Fullscreen.Info" />
         <activity android:name=".ui.pages.DetailActivity" />
         <activity android:name=".ui.pages.MainActivity" />
     </application>
